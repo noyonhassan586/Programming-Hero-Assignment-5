@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Something New Today!</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="mx-auto container">
+    <!-- Navbar -->
+    <header>
+        <nav class="flex justify-between rounded-xl shadow-lg w-full h-16 px-4 mt-3">
+            <div class="flex justify-center items-center gap-4">
+                <img class="w-8" src="assets/logo.png" alt="Logo">
+                <h1>Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div class="flex justify-center items-center gap-2">
+                <button id="Back-to-desk"
+                    class="bg-blue-600 rounded-sm w-28 h-10 text-white transition-transform active:scale-90">Back to
+                    Desk</button>
+            </div>
+        </nav>
+    </header>
+    <main class="flex flex-col gap-4 mt-5">
+        <div class="bg-slate-300 p-6 rounded-md">
+            <h1>Question-1: What are the different ways to select an element in the DOM?</h1>
+            <p><span class="font-bold">Ans:<br></span>getElementById: Selects an element by its
+                ID.<br>getElementsByClassName: Selects all elements with a specific class name.<br>getElementsByTagName:
+                Selects all elements with a specific tag name.<br>querySelector: Selects the first element that matches
+                a CSS selector.<br>querySelectorAll: Selects all elements that match a CSS selector.</p>
+        </div>
+        <div class="bg-slate-300 p-6 rounded-md">
+            <h1>Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+            <p><span class="font-bold">Ans:<br></span>innerHTML: Gets or sets the HTML inside an element, including
+                tags.<br>innerText: Gets or sets the text inside an element, ignoring the HTML tags and
+                spaces.<br>textContent: Similar to innerText, but gets or sets the text including hidden text in the
+                element.</p>
+        </div>
+        <div class="bg-slate-300 p-6 rounded-md">
+            <h1>Question-3: What is event delegation in the DOM?</h1>
+            <p><span class="font-bold">Ans:<br></span>Event delegation in the DOM: Event delegation is a way to handle
+                events on multiple child elements by adding a single event listener to their parent. The event listener
+                catches the event when it bubbles up from the child elements.</p>
+        </div>
+        <div class="bg-slate-300 p-6 rounded-md">
+            <h1>Question-4: What is event bubbling in the DOM?</h1>
+            <p><span class="font-bold">Ans:<br></span>Event bubbling is the process where an event starts from the
+                target
+                element and "bubbles up" to the parent elements in the DOM tree.</p>
+        </div>
+        <div class="bg-slate-300 p-6 rounded-md">
+            <h1>Question-5: How do you create, add, and remove elements using JavaScript?</h1>
+            <p><span class="font-bold">Ans:<br></span>Create: Use document.createElement('tagName') to create a new
+                element.<br>Add: Use <code>appendChild()</code> or <code>insertBefore()</code> to add an element to the
+                DOM.<br>Remove: Use
+                <code>removeChild()</code> to remove an element from its parent.
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
