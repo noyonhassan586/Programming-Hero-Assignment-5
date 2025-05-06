@@ -50,13 +50,3 @@ Each task comes with a **Complete** button that triggers:
 - **Tailwind CSS**
 - **JavaScript (DOM Manipulation)**
 
----
-
-## 📂 Folder Structure (optional)
-
-```plaintext
-📁 root
-├── index.html
-├── style.css (optional if you extended Tailwind)
-├── script.js
-├── /images or /assets
